@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width-device-width">
+		<style>
+			body {
+				padding: 1rem;
+				width: 20rem;
+			}
+			#entryList {
+				list-style: none;
+				margin: 0;
+				padding: 0;
+				width: 100%;
+			}
+			#entryList > li {
+				overflow: hidden;
+				width: 100%;
+			}
+			.ellipsis {
+				display: inline-block;
+				text-overflow: ellipsis;
+				overflow: hidden;
+				width: 100%;
+				white-space: nowrap;
+			}
+
+			#entryList button {
+				background: none;
+				border: none;
+				color: red;
+				cursor: pointer;
+			}
+		</style>
+	</head>
+	<body>
+		<ul id="entryList">
+
+		</ul>	
+		<script src="popup.js"></script>
+	</body>
+</html>
